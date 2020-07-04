@@ -625,7 +625,7 @@
             <section class="p-5 my-md-5 text-center"
                 style="background-image: url(https://mdbootstrap.com/img/Photos/Others/background.jpg); background-size: cover; background-position: center center;">
 
-                <form class=" mx-md-5" action="">
+                <form target="_blank" class=" mx-md-5" action="https://formspree.io/mqkyypra" method="POST">
 
                     <div class="row">
                         <div class="col-md-8 col-12 mx-auto">
@@ -636,7 +636,7 @@
                                 <div class="card-body form-bg-color">
 
                                     <!-- Form -->
-                                    <form class="text-center" style="color: #757575;" action="#!">
+                                    <form class="text-center" style="color: #757575;">
 
                                         <h3 class="font-weight-bold my-4 pb-2 text-center dark-grey-text">Let's Talk
                                         </h3>
@@ -648,27 +648,28 @@
 
                                         <!-- Name -->
                                         <input type="text" id="defaultSubscriptionFormPassword"
-                                            class="form-control mb-4" placeholder="Name">
+                                            class="form-control mb-4" placeholder="Name" name="name" required>
 
                                         <!-- Email -->
                                         <input type="email" id="defaultSubscriptionFormPassword"
-                                            class="form-control mb-4" placeholder="Email">
+                                            class="form-control mb-4" placeholder="Email" name="_replyto" required>
 
                                         <!-- Phone -->
                                         <input type="text" id="defaultSubscriptionFormPassword"
-                                            class="form-control mb-4" placeholder="Phone">
+                                            class="form-control mb-4" placeholder="Phone" name="phone">
 
                                         <!-- Message -->
                                         <!-- <input type="text" id="defaultSubscriptionFormPassword" class="form-control mb-4"
                                         placeholder="Phone"> -->
                                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                                            placeholder="Message"></textarea>
+                                            placeholder="Message" name="message" required></textarea>
 
                                         <!-- <input type="password" id="defaultSubscriptionFormEmail" class="form-control"
                                         placeholder="Password"> -->
 
                                         <div class="text-center">
-                                            <button type="button" class="btn btn-success mt-3">Submit</button>
+                                            <button type="submit" class="btn btn-success mt-3"
+                                                value="Send">Send</button>
                                         </div>
 
                                     </form>
