@@ -4,7 +4,7 @@ body {
 }
 
 .navbar-custom-css {
-    /* background-color: white; */
+    background-color: white !important;
 }
 
 .logo {
@@ -46,7 +46,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url('../images/slide-1.jpg');
+    background-image: linear-gradient(to bottom, rgba(37, 62, 189, 0.3), rgba(24, 22, 121, 0.6)), url('../images/slide-1.jpg');
 }
 
 .carousel-image-2 {
@@ -54,7 +54,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url('../images/slide-2.jpg');
+    background-image: linear-gradient(to bottom, rgba(138, 83, 39, 0.5), rgba(77, 42, 35, 0.8)), url('../images/slide-2.jpg');
 }
 
 .carousel-image-3 {
@@ -62,7 +62,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url('../images/slide-3.jpg');
+    background-image: linear-gradient(to bottom, rgba(35, 53, 13, 0.5), rgba(50, 54, 9, 0.6)), url('../images/slide-3.jpg');
 }
 
 /* Hero Code */
@@ -101,13 +101,14 @@ body {
 }
 
 .service-container h1 {
-    font-size: 21px;
+    font-size: 28px;
     line-height: 1.5;
 }
 
 .service-container h3 {
-    font-size: 17px;
+    font-size: 20px;
     line-height: 2;
+    font-weight: 300;
 }
 
 .service-container p, li {
@@ -164,7 +165,9 @@ body {
 }
 
 .blue-gradient {
-    background: linear-gradient(40deg, #45cafc, #303f9f) !important;
+    /* background: linear-gradient(40deg, #45cafc, #303f9f) !important; */
+    /* Changing testimonials cards background from blue gradient to theme green color. */
+    background-color: #28a745;
 }
 
 /* About Digityze Section */
@@ -193,6 +196,10 @@ body {
     color: white;
 }
 
+.avatar {
+    height: 120px;
+}
+
 /* Contact Form CSS */
 
 .contact-form-desc {
@@ -200,8 +207,8 @@ body {
 }
 
 .form-bg-color {
-    /* background-color: grey;
-    color: white; */
+    background-color: #f9f9f9;
+    border: 2px solid grey;
 }
 
 .main-contact-div {
@@ -221,7 +228,7 @@ footer ul li {
 
 .adress span, .contact span, .social span {
     color: #28a745;
-    font-weight: 800;
+    font-weight: 400;
     padding-bottom: 10px;
     margin-bottom: 20px;
     display: block;
@@ -239,6 +246,11 @@ footer ul li {
 
 .social {
     color: white;
+}
+
+.social p {
+    font-weight: 300;
+    font-size: 15px;
 }
 
 .social li {
