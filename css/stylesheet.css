@@ -284,6 +284,10 @@ footer ul li {
         max-height: 60vh;
         height: auto;
     }
+    .service-container h1 {
+        font-size: 25px;
+        line-height: 1.5;
+    }
     .about-text {
         font-size: 20px;
         padding-right: 15% ! important;
@@ -306,13 +310,24 @@ footer ul li {
 @media screen and (max-width: 767px) {
     .rem-pad .img-fluid {
         width: 100% !important;
-        max-height: 50vh;
+        max-height: 70vh;
         height: auto;
+    }
+    #top-logos img {
+        max-height: 80px;
+        height: 60vh !important;
+    }
+    .service-container h1 {
+        font-size: 23px;
+        line-height: 1.5;
     }
     .about-text {
         font-size: 18px;
         padding-right: 10% ! important;
         padding-left: 10% !important;
+    }
+    .carousel-caption h1 {
+        font-size: 32px;
     }
     .carousel-caption h2 {
         font-size: 24px;
@@ -337,8 +352,19 @@ footer ul li {
 @media screen and (max-width: 479px) {
     .rem-pad .img-fluid {
         width: 100% !important;
-        max-height: 50vh;
+        max-height: 80vh;
         height: auto;
+    }
+    #top-logos img {
+        max-height: 100px;
+        height: 60vh! important;
+    }
+    .service-container h1 {
+        font-size: 21px;
+        line-height: 1.5;
+    }
+    .carousel-caption h1 {
+        font-size: 26px;
     }
     .about-text {
         font-size: 15px;
